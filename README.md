@@ -79,9 +79,9 @@ The "Ask AI" feature requires a local LLM running via Ollama.
 Download and install Ollama from [ollama.com](https://ollama.com/download).
 
 ### Step 3.2: Pull a Model
-Open a terminal and pull a standard model (e.g., Llama 3):
+Open a terminal and pull a standard model (e.g., gpt-oss:120b-cloud):
 ```bash
-ollama pull llama3
+ollama pull gpt-oss:120b-cloud
 ```
 
 ### Step 3.3: Configure the API
@@ -123,3 +123,4 @@ ollama serve
     cd API/python_services
     python trends_service.py "dolo"
     ```
+
